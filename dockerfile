@@ -19,4 +19,4 @@ COPY . .
 EXPOSE 3000
 EXPOSE 3001
 
-CMD ["bun", "run", "dev", "--", "--hostname", "0.0.0.0"]
+CMD ["bun", "run", "dev"]
